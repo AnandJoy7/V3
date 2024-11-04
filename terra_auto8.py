@@ -709,7 +709,7 @@ def main():
         
         # Configuration
         region = "us-east-1"
-        vpc_ids = ["vpc-059728ba2d15384e6"]  # Add your new VPC IDs here  "vpc-008e46fde5ccc685a"
+        vpc_ids = ["vpc-059d612141a064cd2"]  # Add your new VPC IDs here  "vpc-008e46fde5ccc685a"
         
         # Create Terraform files only if they don't exist
         if not os.path.exists(parent_module) or not os.path.exists(child_module):
